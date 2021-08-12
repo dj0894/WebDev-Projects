@@ -1,28 +1,50 @@
-.to-add-items{
+.project-heading{
+    padding:20px;
     margin:20px;
-    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 8px rgb(97, 185, 223);
+    align-items: center;     
 }
+
+
+.to-add-items{
+    padding:20px;
+    margin:20px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 8px rgb(97, 185, 223);
+}
+
+
 .add-btn{
-   
-    border: none;
+    border: black;
     color: black;
+    height: 30px;
+    width: 80px;
     margin: 10px;
-    padding: 10px 10px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .grid-container {
     display: contents;
 }
+.items-div{
+    padding:20px;
+    box-shadow: 2px 2px 8px 8px rgb(97, 185, 223);
+    margin: 20px;
+}
+.items-div-title{
+    background-color: skyblue;
+    padding: 10px;
+   
+}
 
 .items{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    background-color:wheat;
-    padding: 10px;
+    padding: 10px; 
 }
 
 .grid-item {
@@ -33,7 +55,7 @@
 }
 
 .grid-container:hover > div {
-     background-color: rgb(217, 235, 139);
+     background-color: rgb(194, 237, 240);
 }
 
 .delete{
