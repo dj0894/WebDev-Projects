@@ -1,11 +1,10 @@
-# Java-Script-React-Projects
+# WebDev Projects
 This repository contains mini projects built using HTML,CSS Javascript, React, Node , Express
 
 ## Projects
 
-1. Inventory Store 
+1. [Inventory Store](#INVENTORY STORE)
 
----
 ## INVENTORY STORE
 ### Project Description
 * Single Page Application for Managing Inventory
@@ -27,8 +26,7 @@ This repository contains mini projects built using HTML,CSS Javascript, React, N
  ![InventoryStoreGif](./InventoryStore/demo/InventoryStoreDemo.gif)
 
 ### Screenshots
-!(Screen)[./InventoryStore/screenshots/InventoryStoreScreenShot1.png]
----
+[Screenshot](./InventoryStore/screenshots/InventoryStoreScreenShot1.png)
 
 
 
