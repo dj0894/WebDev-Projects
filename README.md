@@ -3,7 +3,7 @@ This repository contains mini projects built using HTML,CSS Javascript, React, N
 
 ## Projects
 
-1. [Inventory Store](#INVENTORY STORE)
+1. Inventory Store
 
 ## INVENTORY STORE
 ### Project Description
@@ -26,7 +26,7 @@ This repository contains mini projects built using HTML,CSS Javascript, React, N
  ![InventoryStoreGif](./InventoryStore/demo/InventoryStoreDemo.gif)
 
 ### Screenshots
-[Screenshot](./InventoryStore/screenshots/InventoryStoreScreenShot1.png)
+![Screenshot](./InventoryStore/screenshots/InventoryStoreScreenShot1.png)
 
 
 
