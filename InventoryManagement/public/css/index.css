@@ -1,0 +1,84 @@
+.to-add-items{
+    margin:20px;
+    padding: 20px;
+}
+.add-btn{
+   
+    border: none;
+    color: black;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.grid-container {
+    display: contents;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:wheat;
+    padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-container:hover > div {
+     background-color: rgb(217, 235, 139);
+}
+
+.delete{
+    background-color: rgb(199, 80, 80);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+.disabled {
+    color:red;
+    font-weight: 200;
+    pointer-events: none;    
+}
+
+.disabled-btn{
+    background-color: white;
+    color:black;
+}
+
+.enabled-btn{
+    background-color: rgb(94, 145, 52);
+    color: white;
+}
+
+.decrease1{
+    background-color:rgb(173, 172, 172);
+    font-family: Arial, sans-serif;
+    padding:10px;
+}
+.increase1{
+    background-color: green;
+    color:white;
+    padding: 10px;
+}
+
+.status{
+   
+    position: relative;
+    margin:20px;
+    font-size: larger;
+    padding: 5px;
+    color:red;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
